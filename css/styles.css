@@ -1,0 +1,157 @@
+body {
+    padding-top: 50px;
+}
+
+section {
+    padding: 40px 0 40px 0;
+}
+
+p {
+    text-align: justify;
+}
+
+.jumbotron {
+    background: #1b222a url("../img/header.jpg") no-repeat top center;
+    color: #fff;
+    height: 598px;
+    overflow: none;
+}
+
+.jumbotron h1 {
+    margin-top: 60px;
+    font-size: 38px;
+}
+
+.jumbotron p {
+    margin-bottom: 60px;
+}
+
+.jumbotron img {
+    width: 70%;
+    margin-right: 30px;
+}
+
+.jumbotron header {
+    width: 75%;
+}
+
+.buk-text {
+    color: #124290 !important;
+}
+
+.demo {
+    width: 100%;
+    padding: 3px;
+    border: 1px solid #ccc;
+}
+
+section#caracteristicas {
+    background: #37befe;
+    padding: 40px;
+    overflow: auto;
+    color: #fff;
+}
+
+section#caracteristicas ul li {
+    font-size: 22px;
+    list-style: none;
+    line-height: 2.0em;
+    padding-left: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 30px 0 20px 0;
+}
+
+footer li {
+    float: left;
+    list-style: none;
+    padding: 0 10px 0 10px;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: none;
+    color: #eee;
+}
+
+footer p {
+    float: right;
+}
+
+section#barra-titulo {
+    background: #37befe;
+    color: #fff;
+}
+
+
+/*media queries*/
+
+@media(max-width: 1200px) {
+    .jumbotron img.header {
+        width: 80%;
+        margin: 5px 0 0 40px;
+    }
+}
+
+@media(max-width: 991px) {
+    .jumbotron img.header {
+        width: 250px;
+        margin: 0 auto;
+    }
+}
+
+@media(min-width: 769px) and (max-width: 990px) {
+    .jumbotron {
+        height: 400px !important;
+        background-size: 100% 100%;
+    }
+    .jumbotron h1 {
+        margin: 10px;
+    }
+}
+
+@media(max-width: 768px) {
+    .jumbotron {
+        height: 280px !important;
+        background-size: 100% 100%;
+    }
+    .jumbotron h1 {
+        margin-top: 10px;
+        font-size: 32px;
+    }
+    .jumbotron img.header {
+        display: none;
+    }
+}
+
+@media(max-width: 500px) {
+    .jumbotron {
+        height: 250px !important;
+        background-image: none;
+        text-align: center;
+    }
+    .jumbotron p {
+        text-align: center;
+    }
+    .jumbotron img.header {
+        display: none;
+    }
+    section#caracteristicas ul li {
+        font-size: 19px;
+    }
+    section#caracteristicas img {
+        width: 100%;
+    }
+    footer p {
+        float: none;
+        text-align: center;
+        line-height: 50px;
+    }
+}
